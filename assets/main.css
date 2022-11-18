@@ -204,3 +204,42 @@ body{
     right: 0px;
     text-align: center;
 }
+
+code{
+    border-radius: 2px;
+    background-color: var(--burnished-brown);
+    color: var(--space-cadet);
+    padding: 3px;
+}
+
+p{
+    line-height: 23px;
+}
+
+.content1-buttons{
+    display: flex;
+    right: 0;
+    text-align: center;
+}
+
+.button_big{
+    border: 1px solid var(--burnished-brown);
+    border-radius: 4px;
+    font-size: 1.05rem;
+    padding: 5px 12px;
+    transition: 0.2s;
+}
+
+.button_big:hover{
+    cursor: pointer;
+    background-color: var(--old-lavender);
+    color: var(--space-cadet);
+}
+
+.button_read_more{
+    
+}
+
+.button_my_work{
+    margin-left: 20px;
+}
