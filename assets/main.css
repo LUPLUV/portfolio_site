@@ -243,3 +243,46 @@ p{
 .button_my_work{
     margin-left: 20px;
 }
+
+
+
+.work-grid-container {
+    display: grid;
+    gap: 14px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1530px){
+    .work-grid-container{
+        grid-template-columns: auto auto;
+    }
+}
+
+.work-grid-item{
+    border: 2px solid var(--burnished-brown);
+    border-radius: 8px;
+    height: 26vh;
+    width: 64vh;
+    padding-top: 3vh;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.work-grid-item-header{
+    font-size: 4vh;
+}
+
+.work-grid-item-paragraph{
+    font-size: 2vh;
+    padding-top: 2vh;
+}
+
+.work-grid-item:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.tune-icon{
+
+}
