@@ -155,15 +155,19 @@ body{
     border: 1px solid var(--burnished-brown);
 } /* Blue */
 .js {
-    width: 50%;
+    width: 40%;
     border: 1px solid var(--burnished-brown);
 } /* Red */
 .php {
     width: 40%;
     border: 1px solid var(--burnished-brown);
 } /* Dark Grey */
-.symfony {
-    width: 20%;
+.sql {
+    width: 60%;
+    border: 1px solid var(--burnished-brown);
+} /* Dark Grey */
+.csharp {
+    width: 40%;
     border: 1px solid var(--burnished-brown);
 } /* Dark Grey */
 
@@ -245,17 +249,24 @@ p{
 }
 
 
-
 .work-grid-container {
     display: grid;
     gap: 14px;
     grid-template-columns: auto auto auto;
     justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-@media only screen and (max-width: 1530px){
+@media only screen and (max-width: 2410px){
     .work-grid-container{
         grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width: 1740px){
+    .work-grid-container{
+        grid-template-columns: auto;
     }
 }
 
@@ -263,19 +274,29 @@ p{
     border: 2px solid var(--burnished-brown);
     border-radius: 8px;
     height: 26vh;
-    width: 64vh;
+    max-width: 64vh;
     padding-top: 3vh;
     text-align: center;
     transition: 0.2s;
 }
 
+@media only screen and (max-width: 850px){
+    .work-grid-item{
+        height: 32vh;
+    }
+}
+
 .work-grid-item-header{
     font-size: 4vh;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .work-grid-item-paragraph{
     font-size: 2vh;
     padding-top: 2vh;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .work-grid-item:hover{
@@ -285,4 +306,15 @@ p{
 
 .tune-icon{
 
+}
+
+.imprint-link{
+    text-decoration: none;
+    color: var(--burnished-brown);
+    font-weight: 1000;
+    margin-left: 4px;
+    transition: 0.2s;
+}
+.imprint-link:hover{
+    color: var(--old-lavender);
 }

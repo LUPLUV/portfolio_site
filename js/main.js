@@ -1,5 +1,6 @@
 let darkmode = true;
 let menu_open = false;
+var r = document.querySelector(':root');
 
 function toggle_darkmode()
 {
@@ -8,10 +9,12 @@ function toggle_darkmode()
     {
         darkmode = false;
         btn.innerHTML = "darkmode(off)";
+        r.style.setProperty('--space-cadet', 'white')
     } else
     {
         darkmode = true;
         btn.innerHTML = "darkmode(on)";
+        r.style.setProperty('--space-cadet', '#1c1f33')
     }
 }
 

@@ -18,8 +18,8 @@
             </div>
             <ul class="nav-items-links" id="nav-items-links">
                 <li class="nav-items-links-li" onclick="window.open('../', '_self')">start()</li>
-                <li class="nav-items-links-li"><u>about</u>()</li>
-                <li class="nav-items-links-li" onclick="window.open('../work', '_self')">work()</li>
+                <li class="nav-items-links-li" onclick="window.open('../about', '_self')">about()</li>
+                <li class="nav-items-links-li"><u>work</u>()</li>
                 <li class="nav-items-links-li" onclick="window.open('../socials', '_self')">socials()</li>
                 <li class="nav-items-links-li" onclick="window.open('../downloads', '_self')">downloads()</li>
                 <li class="darkmode-btn nav-items-links-li" id="darkmode-btn" onclick="toggle_darkmode()">darkmode(on)</li>
@@ -31,28 +31,65 @@
     </div>
     <div class="body-wrapper">
         <div class="work-grid-container">
-            <div class="work-grid-item" id="work-dmx">
+            <div class="work-grid-item" id="work-dmx" onclick="window.open('https://github.com/minus345/ArtNetConsole/')">
                 <div class="work-grid-item-header">
-                    DMX Console
-                    <span class="material-symbols-outlined tune-icon">
-                        tune
-                        </span>
+                    ArtNetConsole
                 </div>
                 <div class="work-grid-item-paragraph">
-                    DMX Console is a really nice program built for controlling light hardware like Moving Heads.
+                    ArtNetConsole is a simple Light Show control program, runnning in the Console. Webinterface under construction.
                 </div>
+                <br>
+                <code>Java, Html, CSS, JS</code>
+                <br>
+                <code>Contributors: Minus345, LUPLUV</code>
             </div>
-            <div class="work-grid-item">2</div>
-            <div class="work-grid-item">3</div>
-            <div class="work-grid-item">4</div>
+            <div class="work-grid-item" onclick="window.open('https://github.com/LUPLUV/Craftattack8')">
+                <div class="work-grid-item-header">
+                    Craftattack Plugin
+                </div>
+                <div class="work-grid-item-paragraph">
+                    The Craftattack Minecraft Plugin contains all the usefull Features of Craftattack 8.
+                </div>
+                <br>
+                <code>Java, Spigot API, Minecraft</code>
+                <br>
+                <code>Contributors: LUPLUV</code>
+            </div>
+            <div class="work-grid-item" onclick="window.open('https://gfsgamefriend.de/')">
+                <div class="work-grid-item-header">
+                    GFSGameFriend
+                </div>
+                <div class="work-grid-item-paragraph">
+                    This is a website for my dear friend Stephanos. He's making music.
+                </div>
+                <br>
+                <code>Html, CSS, JS</code>
+                <br>
+                <code>Contributors: LUPLUV</code>
+            </div>
+            <div class="work-grid-item" onclick="window.open('https://github.com/LUPLUV/hermetiko')">
+                <div class="work-grid-item-header">
+                    Hermetiko GmbH
+                </div>
+                <div class="work-grid-item-paragraph">
+                    New website design for Hermetiko Bauteil GmbH. Still under construction, but worth mentioning. Take a look :D
+                </div>
+                <br>
+                <code>PHP, Html, CSS, JS</code>
+                <br>
+                <code>Contributors: LUPLUV</code>
+            </div>
             <div class="work-grid-item">5</div>
             <div class="work-grid-item">6</div>
         </div>
     </div>
     <div class="footer-wrapper">
         <div class="footer-content">
+            <div class="footer-left">
             <div class="footer-logo">
                 LUPLUV
+            </div>
+            <a href="../imprint/" class="imprint-link">Imprint</a>
             </div>
             <ul class="footer-items-links">
                 <li>Start</li>
@@ -63,6 +100,6 @@
             </ul>
         </div>
     </div>
-    <script src="js/main.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>
