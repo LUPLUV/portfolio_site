@@ -9,7 +9,7 @@ function toggle_darkmode()
     {
         darkmode = false;
         btn.innerHTML = "darkmode(off)";
-        r.style.setProperty('--space-cadet', 'white')
+        r.style.setProperty('--space-cadet', '#eeeee4')
     } else
     {
         darkmode = true;

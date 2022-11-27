@@ -1,40 +1,77 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="//db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold" rel="stylesheet" type="text/css"/>
-    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../assets/main.css">
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="icon" 
-      type="image/jpg" 
-      href="https://i1.sndcdn.com/avatars-33g4qp5DDA2XgGTD-YOygZQ-t500x500.jpg">
-    <title>GFSGameFriend Imprint</title>
+    <title>LUPLUV DEV Portfolio</title>
 </head>
 <body>
-    <h1>Imprint LUPLUV.dev</h1>
-    <p>
-        <span class="bold">Thore Müller</span>
-        <br>
-        Oberfürberger Str. 6
-        <br>
-        90768 Fürth
-        <br>
-        Deutschland
-    </p>
-    <p>
-        <span class="bold">Kontakt</span>
-        <br>
-        Telefon: +49 170 4476416
-        <br>
-        E-Mail: <span class="link" onclick="window.open('mailto:thore.mueller07@gmail.com')">thore.mueller07@gmail.com</span>
-        <br>
-        Internet: <span class="link" onclick="window.open('https://lupluv.dev/', '_blank')">lupluv.dev</span>
-    </p>
-    <div class="back" onclick="window.open('../', '_self')">
-        Back to Website
+    <div class="header-wrapper">
+        <div class="nav-bar">
+            <div class="nav-items-logo">
+                LUPLUV
+            </div>
+            <ul class="nav-items-links" id="nav-items-links">
+                <li class="nav-items-links-li" onclick="window.open('../', '_self')">start()</li>
+                <li class="nav-items-links-li" onclick="window.open('../about', '_self')">about()</li>
+                <li class="nav-items-links-li" onclick="window.open('../work', '_self')">work()</li>
+                <li class="nav-items-links-li" onclick="window.open('../socials', '_self')">socials()</li>
+                <li class="nav-items-links-li" onclick="window.open('../downloads', '_self')">downloads()</li>
+                <li class="darkmode-btn nav-items-links-li" id="darkmode-btn" onclick="toggle_darkmode()">darkmode(on)</li>
+            </ul>
+            <div class="nav-items-menu">
+                <i class='bx bx-menu' onclick="toggle_menu();"></i>
+            </div>
+        </div>
     </div>
+    <div class="body-wrapper">
+        <div class="imprint-page-wrapper">
+            <h2>Imprint lupluv.dev</h2>
+            <div class="imprint-page-content">
+            <p>
+                <b>Thore Müller</b>
+                <br>
+                Oberfürberger Str. 6
+                <br>
+                90768 Fürth
+                <br>
+                Deutschland
+                <br>
+            </p>
+            <p>
+                <b>Kontakt</b>
+                <br>
+                Telefon: +49 170 4476416
+                <br>
+                E-Mail: <span class="link" onclick="window.open('mailto:thore.mueller07@gmail.com')">thore.mueller07@gmail.com</span>
+                <br>
+                Internet: <span class="link" onclick="window.open('https://lupluv.dev/', '_self')">lupluv.dev</span>
+            </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-wrapper">
+        <div class="footer-content">
+            <div class="footer-left">
+            <div class="footer-logo">
+                LUPLUV
+            </div>
+            <a href="../imprint/" class="imprint-link">Imprint</a>
+            </div>
+            <ul class="footer-items-links">
+                <li>Start</li>
+                <li>About me</li>
+                <li>My Work</li>
+                <li>Socials</li>
+                <li>Downloads</li>
+            </ul>
+        </div>
+    </div>
+    <script src="../js/main.js"></script>
 </body>
 </html>

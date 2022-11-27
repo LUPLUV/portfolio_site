@@ -29,9 +29,6 @@ body{
     transition: 1s;
     height: fit-content;
 }
-.nav-items-logo:hover{
-    transform: translateX(10rem);
-}
 .nav-items-links{
     list-style: none;
     display: flex;
@@ -317,4 +314,38 @@ p{
 }
 .imprint-link:hover{
     color: var(--old-lavender);
+}
+
+.imprint-page-wrapper{
+    margin: 20px 50px;
+}
+
+.imprint-page-wrapper h2{
+
+}
+
+.link{
+    color: var(--english-vermillion);
+    transition: 0.2s;
+}
+.link:hover{
+    cursor: pointer;
+    color: var(--red-ryb);
+}
+
+.imprint-page-content{
+    display: flex;
+}
+
+.imprint-page-content p:nth-last-child(1){
+    margin-left: 40px;
+}
+
+@media only screen and (max-width: 670px){
+    .imprint-page-content{
+        display: block;
+    }
+    .imprint-page-content p:nth-last-child(1){
+        margin-left: 0;
+    }
 }
