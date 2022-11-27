@@ -148,7 +148,7 @@ body{
     border: 1px solid var(--burnished-brown);
 } /* Green */
 .html {
-    width: 70%;
+    width: 60%;
     border: 1px solid var(--burnished-brown);
 } /* Blue */
 .js {
@@ -261,7 +261,7 @@ p{
     }
 }
 
-@media only screen and (max-width: 1740px){
+@media only screen and (max-width: 1500px){
     .work-grid-container{
         grid-template-columns: auto;
     }
